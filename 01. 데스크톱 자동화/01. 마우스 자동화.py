@@ -22,6 +22,6 @@ import time
 
 # 5. 마우스 드래그
 # 119,49 -> 265,51
-pyautogui.moveTo(119,49,1)
-pyautogui.dragTo(265,51,1)
-pyautogui.dragTo(119,49,1)
+pyautogui.moveTo(355,47,1)
+pyautogui.dragTo(514,49,1)
+pyautogui.dragTo(355,47,1)
