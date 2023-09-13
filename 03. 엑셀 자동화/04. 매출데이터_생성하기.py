@@ -29,4 +29,4 @@ for i in range(random.randint(5,10)): # 매출 데이터 (행) 5 ~ 10개
     ws.append([i+1, name, price, random.randint(1, 5), f'=C{i+2}*D{i+2}'])
     
 # 저장
-wb.save("03. 엑셀 자동화/쿠팡.xlsx")
+wb.save("03. 엑셀 자동화/11번가.xlsx")
