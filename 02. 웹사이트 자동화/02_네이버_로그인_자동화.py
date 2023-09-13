@@ -52,4 +52,3 @@ time.sleep(2)
 
 # 로그인 버튼
 driver.find_element(By.CSS_SELECTOR,"#log\.login").click()
-C:\automation_mocha\02. 웹사이트 자동화\02_네이버_로그인_자동화.py
