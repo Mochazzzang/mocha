@@ -30,5 +30,11 @@ ws = wb['data']
 #     print(row)
     
 # 2번째 행 부터 5번째 행 까지 가져오기
-for row in ws.iter_rows(min_row=2,max_row=5):
-    print(row)
+# for row in ws.iter_rows(min_row=2,max_row=5):
+#     print(row)
+    
+# 2-4행, 2-4열 가져오기
+for row in ws.iter_rows(min_row=2, max_row=4, min_col=2, max_col=4):
+    for cell in row:
+      print(cell.value, end=" ")
+    print()
