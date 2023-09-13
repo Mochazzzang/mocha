@@ -44,9 +44,9 @@ time.sleep(2)
 
 # 비밀번호 입력창
 pw = driver.find_element(By.CSS_SELECTOR,"#pw")
-#pw.send_keys("alsgur0923")
+#pw.send_keys("12345678")
 pw.click()
-pyperclip.copy('alsgur0923')
+pyperclip.copy('12345678')
 pyautogui.hotkey('ctrl', 'v')
 time.sleep(2)
 
