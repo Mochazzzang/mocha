@@ -10,7 +10,7 @@ total_ws = total_wb.active
 total_ws.title = "data"
 
 # 헤더 추가
-total_ws.append(['순번', '제품명', '수량', '합계'])
+total_ws.append(['순번', '제품명','가격', '수량', '합계'])
 
 file_list = ['11번가', '스마트스토어', '쿠팡']
 
