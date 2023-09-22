@@ -17,9 +17,9 @@ driver.maximize_window() # 화면 최대화
 
 # 아이디 입력창
 id = driver.find_element(By.CSS_SELECTOR,"#id")
-#id.send_keys("komin126")
+#id.send_keys("naverid")
 id.click()
-pyperclip.copy('komin126')
+pyperclip.copy('naverid')
 pyautogui.hotkey('ctrl', 'v')
 time.sleep(2)
 
